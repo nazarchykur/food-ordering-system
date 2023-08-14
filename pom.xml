@@ -4,6 +4,9 @@
 
   <name>food-ordering-system</name>
   <url>http://maven.apache.org</url>
+  <modules>
+    <module>order-service</module>
+  </modules>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
