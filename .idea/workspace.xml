@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc44b65b-9c80-48f0-bee3-dea8741db675" name="Changes" comment="added screenshots about Clean Architecture" />
+    <list default="true" id="fc44b65b-9c80-48f0-bee3-dea8741db675" name="Changes" comment="added screenshots about Clean Architecture">
+      <change afterPath="$PROJECT_DIR$/screenshots/3 - Domain Driven Design (DDD)/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3 - Domain Driven Design (DDD)/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3 - Domain Driven Design (DDD)/img_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3 - Domain Driven Design (DDD)/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3 - Domain Driven Design (DDD)/img_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3 - Domain Driven Design (DDD)/img_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3 - Domain Driven Design (DDD)/img_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3 - Domain Driven Design (DDD)/img_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3 - Domain Driven Design (DDD)/img_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3 - Domain Driven Design (DDD)/img_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3 - Domain Driven Design (DDD)/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3 - Domain Driven Design (DDD)/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3 - Domain Driven Design (DDD)/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3 - Domain Driven Design (DDD)/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3 - Domain Driven Design (DDD)/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3 - Domain Driven Design (DDD)/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3 - Domain Driven Design (DDD)/img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3 - Domain Driven Design (DDD)/img_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,11 +56,19 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/screenshots" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/screenshots/2 - Clean Architecture &amp; Hexagonal Architecture" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -52,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691997640968</updated>
       <workItem from="1691997641987" duration="543000" />
-      <workItem from="1691998191137" duration="6828000" />
+      <workItem from="1691998191137" duration="11464000" />
     </task>
     <task id="LOCAL-00001" summary="added screenshots about Clean Architecture">
       <option name="closed" value="true" />
@@ -70,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692004742372</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added screenshots about Clean Architecture">
+      <option name="closed" value="true" />
+      <created>1692011823876</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692011823876</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
