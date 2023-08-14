@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc44b65b-9c80-48f0-bee3-dea8741db675" name="Changes" comment="created structure for order-service">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-application/src/test/java/org/example/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-container/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-container/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-dataaccess/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-dataaccess/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-dataaccess/src/test/java/org/example/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-application-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-messaging/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-messaging/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-messaging/src/test/java/org/example/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fc44b65b-9c80-48f0-bee3-dea8741db675" name="Changes" comment="added screenshots about Clean Architecture" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +26,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "zulu-17",
+    "last_opened_file_path": "/home/nazar/IdeaProjects/study/food-ordering-system/screenshots",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,6 +38,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/screenshots" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,8 +52,25 @@
       <option name="presentableId" value="Default" />
       <updated>1691997640968</updated>
       <workItem from="1691997641987" duration="543000" />
-      <workItem from="1691998191137" duration="5496000" />
+      <workItem from="1691998191137" duration="6828000" />
     </task>
+    <task id="LOCAL-00001" summary="added screenshots about Clean Architecture">
+      <option name="closed" value="true" />
+      <created>1692004656895</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692004656895</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added screenshots about Clean Architecture">
+      <option name="closed" value="true" />
+      <created>1692004742372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692004742372</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created structure for order-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="created structure for order-service" />
+    <MESSAGE value="added screenshots about Clean Architecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="added screenshots about Clean Architecture" />
   </component>
 </project>
