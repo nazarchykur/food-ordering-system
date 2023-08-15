@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc44b65b-9c80-48f0-bee3-dea8741db675" name="Changes" comment="added screenshots about Clean Architecture">
+    <list default="true" id="fc44b65b-9c80-48f0-bee3-dea8741db675" name="Changes" comment="Implemented message publisher in Order Application Service to fire the events">
       <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/ApplicationDomainEventPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/OrderApplicationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/OrderCreateCommandHandler.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/OrderCreateHelper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/OrderCreatedEventApplicationListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/OrderTrackCommandHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-domain/src/main/java/org/example/valueobject/CustomerId.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/org/example/valueobject/CustomerId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-domain/src/main/java/org/example/valueobject/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/org/example/valueobject/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-domain/src/main/java/org/example/valueobject/ProductId.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/org/example/valueobject/ProductId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-domain/src/main/java/org/example/valueobject/RestaurantId.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/org/example/valueobject/RestaurantId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/mapper/OrderDataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/mapper/OrderDataMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/org/example/order/service/domain/entity/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/org/example/order/service/domain/entity/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/org/example/order/service/domain/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/org/example/order/service/domain/entity/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -93,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691997640968</updated>
       <workItem from="1691997641987" duration="543000" />
-      <workItem from="1691998191137" duration="31311000" />
+      <workItem from="1691998191137" duration="31633000" />
     </task>
     <task id="LOCAL-00001" summary="added screenshots about Clean Architecture">
       <option name="closed" value="true" />
@@ -119,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692011823876</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implemented message publisher in Order Application Service to fire the events">
+      <option name="closed" value="true" />
+      <created>1692093741356</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692093741356</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created structure for order-service" />
     <MESSAGE value="added screenshots about Clean Architecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="added screenshots about Clean Architecture" />
+    <MESSAGE value="Implemented message publisher in Order Application Service to fire the events" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented message publisher in Order Application Service to fire the events" />
   </component>
 </project>
