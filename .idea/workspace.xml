@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc44b65b-9c80-48f0-bee3-dea8741db675" name="Changes" comment="added screenshots about Clean Architecture">
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/org/example/order/service/domain/OrderDomainService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/org/example/order/service/domain/event/OrderCancelledEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/org/example/order/service/domain/event/OrderCreatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/org/example/order/service/domain/event/OrderEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/org/example/order/service/domain/event/OrderPaidEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/org/example/order/service/domain/OrderDomainServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/org/example/order/service/domain/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/org/example/order/service/domain/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,6 +63,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.order.service.domain" />
       <recent name="org.example.order.service.domain.valueobject" />
       <recent name="org.example.order.service.domain.entity" />
     </key>
@@ -84,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691997640968</updated>
       <workItem from="1691997641987" duration="543000" />
-      <workItem from="1691998191137" duration="21958000" />
+      <workItem from="1691998191137" duration="23420000" />
     </task>
     <task id="LOCAL-00001" summary="added screenshots about Clean Architecture">
       <option name="closed" value="true" />
