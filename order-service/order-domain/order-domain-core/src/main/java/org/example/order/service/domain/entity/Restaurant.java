@@ -1,4 +1,4 @@
-package org.example.order.service.domain.domain.entity;
+package org.example.order.service.domain.entity;
 
 import org.example.entity.AggregateRoot;
 import org.example.valueobject.RestaurantId;

@@ -1,4 +1,4 @@
-package org.example.order.service.domain.domain.exception;
+package org.example.order.service.domain.exception;
 
 import org.example.exception.DomainException;
 

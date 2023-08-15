@@ -1,7 +1,7 @@
-package org.example.order.service.domain.domain.entity;
+package org.example.order.service.domain.entity;
 
 import org.example.entity.BaseEntity;
-import org.example.order.service.domain.domain.valueobject.OrderItemId;
+import org.example.order.service.domain.valueobject.OrderItemId;
 import org.example.valueobject.Money;
 import org.example.valueobject.OrderId;
 

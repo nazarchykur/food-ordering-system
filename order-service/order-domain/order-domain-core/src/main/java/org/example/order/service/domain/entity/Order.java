@@ -1,10 +1,10 @@
-package org.example.order.service.domain.domain.entity;
+package org.example.order.service.domain.entity;
 
 import org.example.entity.AggregateRoot;
-import org.example.order.service.domain.domain.valueobject.StreetAddress;
-import org.example.order.service.domain.domain.exception.OrderDomainException;
-import org.example.order.service.domain.domain.valueobject.OrderItemId;
-import org.example.order.service.domain.domain.valueobject.TrackingId;
+import org.example.order.service.domain.valueobject.StreetAddress;
+import org.example.order.service.domain.exception.OrderDomainException;
+import org.example.order.service.domain.valueobject.OrderItemId;
+import org.example.order.service.domain.valueobject.TrackingId;
 import org.example.valueobject.CustomerId;
 import org.example.valueobject.Money;
 import org.example.valueobject.OrderId;
