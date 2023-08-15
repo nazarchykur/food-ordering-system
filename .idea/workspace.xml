@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc44b65b-9c80-48f0-bee3-dea8741db675" name="Changes" comment="Implemented Order Track Command Handler">
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/test/java/org/example/order/service/domain/OrderApplicationServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/test/java/org/example/order/service/domain/OrderTestConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/4 - Apache Kafka/Introduction to Kafka.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/4 - Apache Kafka/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/4 - Apache Kafka/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-application-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/OrderCreateCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/OrderCreateCommandHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/mapper/OrderDataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/mapper/OrderDataMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +189,7 @@
       <updated>1691997640968</updated>
       <workItem from="1691997641987" duration="543000" />
       <workItem from="1691998191137" duration="31633000" />
-      <workItem from="1692104993392" duration="6012000" />
+      <workItem from="1692104993392" duration="7767000" />
     </task>
     <task id="LOCAL-00001" summary="added screenshots about Clean Architecture">
       <option name="closed" value="true" />
