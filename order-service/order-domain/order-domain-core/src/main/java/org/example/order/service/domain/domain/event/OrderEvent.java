@@ -1,7 +1,7 @@
-package org.example.order.service.domain.event;
+package org.example.order.service.domain.domain.event;
 
 import org.example.event.DomainEvent;
-import org.example.order.service.domain.entity.Order;
+import org.example.order.service.domain.domain.entity.Order;
 
 import java.time.ZonedDateTime;
 

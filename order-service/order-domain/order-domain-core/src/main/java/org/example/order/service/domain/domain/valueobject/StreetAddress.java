@@ -1,4 +1,4 @@
-package org.example.order.service.domain.valueobject;
+package org.example.order.service.domain.domain.valueobject;
 
 import java.util.Objects;
 import java.util.UUID;

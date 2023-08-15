@@ -1,4 +1,4 @@
-package org.example.order.service.domain.entity;
+package org.example.order.service.domain.domain.entity;
 
 import org.example.entity.BaseEntity;
 import org.example.valueobject.Money;

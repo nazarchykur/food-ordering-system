@@ -1,13 +1,13 @@
-package org.example.order.service.domain;
+package org.example.order.service.domain.domain;
 
 import lombok.extern.slf4j.Slf4j;
-import org.example.order.service.domain.entity.Order;
-import org.example.order.service.domain.entity.Product;
-import org.example.order.service.domain.entity.Restaurant;
-import org.example.order.service.domain.event.OrderCancelledEvent;
-import org.example.order.service.domain.event.OrderCreatedEvent;
-import org.example.order.service.domain.event.OrderPaidEvent;
-import org.example.order.service.domain.exception.OrderDomainException;
+import org.example.order.service.domain.domain.entity.Order;
+import org.example.order.service.domain.domain.entity.Product;
+import org.example.order.service.domain.domain.entity.Restaurant;
+import org.example.order.service.domain.domain.event.OrderCancelledEvent;
+import org.example.order.service.domain.domain.event.OrderCreatedEvent;
+import org.example.order.service.domain.domain.event.OrderPaidEvent;
+import org.example.order.service.domain.domain.exception.OrderDomainException;
 
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
