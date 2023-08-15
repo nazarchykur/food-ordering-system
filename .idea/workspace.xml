@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc44b65b-9c80-48f0-bee3-dea8741db675" name="Changes" comment="added screenshots about Clean Architecture">
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/PaymentResponseMessageListenerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/RestaurantApprovalResponseMessageListenerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/org/example/order/service/domain/exception/OrderNotFoundException.java" afterDir="false" />
+    <list default="true" id="fc44b65b-9c80-48f0-bee3-dea8741db675" name="Changes" comment="Implemented Order Track Command Handler">
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/test/java/org/example/order/service/domain/OrderApplicationServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/test/java/org/example/order/service/domain/OrderTestConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/OrderTrackCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/OrderTrackCommandHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-application-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/OrderCreateCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/OrderCreateCommandHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/mapper/OrderDataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/mapper/OrderDataMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +26,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -43,31 +47,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;zulu-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/nazar/IdeaProjects/study/food-ordering-system/screenshots&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "zulu-17",
+    "last_opened_file_path": "/home/nazar/IdeaProjects/study/food-ordering-system/screenshots",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "8c1e3dc05ecb1bcb94bcbaeeb485787b",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.order.service.domain" />
@@ -80,6 +87,102 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/screenshots/2 - Clean Architecture &amp; Hexagonal Architecture" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.order.service.domain" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.OrderApplicationServiceTest">
+    <configuration name="OrderApplicationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-application-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.order.service.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.order.service.domain" />
+      <option name="MAIN_CLASS_NAME" value="org.example.order.service.domain.OrderApplicationServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplicationServiceTest.createOrder_WithWrongTotalPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-application-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.order.service.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.order.service.domain" />
+      <option name="MAIN_CLASS_NAME" value="org.example.order.service.domain.OrderApplicationServiceTest" />
+      <option name="METHOD_NAME" value="createOrder_WithWrongTotalPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplicationServiceTest.createOrder_success_V1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-application-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.order.service.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.order.service.domain" />
+      <option name="MAIN_CLASS_NAME" value="org.example.order.service.domain.OrderApplicationServiceTest" />
+      <option name="METHOD_NAME" value="createOrder_success_V1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplicationServiceTest.createOrder_success_V2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-application-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.order.service.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.order.service.domain" />
+      <option name="MAIN_CLASS_NAME" value="org.example.order.service.domain.OrderApplicationServiceTest" />
+      <option name="METHOD_NAME" value="createOrder_success_V2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplicationServiceTest.createOrder_success_V3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-application-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.order.service.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.order.service.domain" />
+      <option name="MAIN_CLASS_NAME" value="org.example.order.service.domain.OrderApplicationServiceTest" />
+      <option name="METHOD_NAME" value="createOrder_success_V3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrderApplicationServiceTest" />
+        <item itemvalue="JUnit.OrderApplicationServiceTest.createOrder_success_V2" />
+        <item itemvalue="JUnit.OrderApplicationServiceTest.createOrder_success_V1" />
+        <item itemvalue="JUnit.OrderApplicationServiceTest.createOrder_success_V3" />
+        <item itemvalue="JUnit.OrderApplicationServiceTest.createOrder_WithWrongTotalPrice" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -91,6 +194,7 @@
       <updated>1691997640968</updated>
       <workItem from="1691997641987" duration="543000" />
       <workItem from="1691998191137" duration="31633000" />
+      <workItem from="1692104993392" duration="6012000" />
     </task>
     <task id="LOCAL-00001" summary="added screenshots about Clean Architecture">
       <option name="closed" value="true" />
@@ -124,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692093741356</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implemented Order Track Command Handler">
+      <option name="closed" value="true" />
+      <created>1692096075482</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692096075482</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +269,23 @@
     <MESSAGE value="created structure for order-service" />
     <MESSAGE value="added screenshots about Clean Architecture" />
     <MESSAGE value="Implemented message publisher in Order Application Service to fire the events" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented message publisher in Order Application Service to fire the events" />
+    <MESSAGE value="Implemented Order Track Command Handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Order Track Command Handler" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/mapper/OrderDataMapper.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/org/example/order/service/domain/entity/Order.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
