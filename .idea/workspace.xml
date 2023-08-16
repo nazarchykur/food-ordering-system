@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc44b65b-9c80-48f0-bee3-dea8741db675" name="Changes" comment="Implemented Order Track Command Handler">
-      <change afterPath="$PROJECT_DIR$/screenshots/4 - Apache Kafka/Introduction to Kafka.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/4 - Apache Kafka/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/4 - Apache Kafka/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/screenhots/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/screenhots/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/docker-compose/kafka_cluster.yml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/docker-compose/kafka_cluster.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "zulu-17",
-    "last_opened_file_path": "/home/nazar/IdeaProjects/study/food-ordering-system/screenshots",
+    "last_opened_file_path": "/home/nazar/IdeaProjects/study/food-ordering-system/infrastructure/docker-compose",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,6 +77,7 @@
       <recent name="org.example.order.service.domain.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/infrastructure/docker-compose" />
       <recent name="$PROJECT_DIR$/screenshots" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -189,7 +190,7 @@
       <updated>1691997640968</updated>
       <workItem from="1691997641987" duration="543000" />
       <workItem from="1691998191137" duration="31633000" />
-      <workItem from="1692104993392" duration="7767000" />
+      <workItem from="1692104993392" duration="17408000" />
     </task>
     <task id="LOCAL-00001" summary="added screenshots about Clean Architecture">
       <option name="closed" value="true" />
