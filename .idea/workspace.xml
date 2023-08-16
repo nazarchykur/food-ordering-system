@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc44b65b-9c80-48f0-bee3-dea8741db675" name="Changes" comment="Implemented Kafka producer generic module">
-      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-consumer/src/main/java/org/example/kafka/consumer/KafkaConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-consumer/src/main/java/org/example/kafka/consumer/config/KafkaConsumerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/kafka/kafka-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-consumer/pom.xml" afterDir="false" />
+    <list default="true" id="fc44b65b-9c80-48f0-bee3-dea8741db675" name="Changes" comment="Implemented Kafka consumer generic module">
+      <change afterPath="$PROJECT_DIR$/order-service/order-application/src/main/java/org/example/order/service/application/exception/OrderGlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-application/src/main/java/org/example/order/service/application/rest/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c13909372c066d2ca806095848840a1448aaa7e1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/1/c13909372c066d2ca806095848840a1448aaa7e1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-application/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/dto/create/CreateOrderResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/dto/create/CreateOrderResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/mapper/OrderDataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/example/order/service/domain/mapper/OrderDataMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/test/java/org/example/order/service/domain/OrderApplicationServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/test/java/org/example/order/service/domain/OrderApplicationServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +60,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "zulu-17",
-    "last_opened_file_path": "/home/nazar/IdeaProjects/study/food-ordering-system/infrastructure/kafka/kafka-producer/src/main/java/org/example",
+    "last_opened_file_path": "/home/nazar/IdeaProjects/study/food-ordering-system/order-service/order-application/src/main/java/org/example/order/service/application/rest",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,11 +85,11 @@
       <recent name="org.example.order.service.domain.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/order-service/order-application/src/main/java/org/example/order/service/application/rest" />
+      <recent name="$PROJECT_DIR$/order-service/order-application/src/main/java/org/example" />
       <recent name="$PROJECT_DIR$/infrastructure/kafka/kafka-producer/src/main/java/org/example" />
       <recent name="$PROJECT_DIR$/infrastructure/kafka/kafka-model/src/main/resources/avro" />
       <recent name="$PROJECT_DIR$/infrastructure/kafka/kafka-config-data/src/main/java/org/example/kafka/config/data" />
-      <recent name="$PROJECT_DIR$/infrastructure/docker-compose" />
-      <recent name="$PROJECT_DIR$/screenshots" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/screenshots/2 - Clean Architecture &amp; Hexagonal Architecture" />
@@ -192,7 +201,7 @@
       <updated>1691997640968</updated>
       <workItem from="1691997641987" duration="543000" />
       <workItem from="1691998191137" duration="31633000" />
-      <workItem from="1692104993392" duration="23527000" />
+      <workItem from="1692104993392" duration="25434000" />
     </task>
     <task id="LOCAL-00001" summary="added screenshots about Clean Architecture">
       <option name="closed" value="true" />
@@ -274,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692182023708</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Implemented Kafka consumer generic module">
+      <option name="closed" value="true" />
+      <created>1692182374427</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692182374427</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +329,8 @@
     <MESSAGE value="Implemented Kafka config data generic module" />
     <MESSAGE value="Implemented Kafka model generic module" />
     <MESSAGE value="Implemented Kafka producer generic module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Kafka producer generic module" />
+    <MESSAGE value="Implemented Kafka consumer generic module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Kafka consumer generic module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

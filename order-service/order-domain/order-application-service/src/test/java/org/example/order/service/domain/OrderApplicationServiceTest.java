@@ -20,11 +20,9 @@ import org.example.valueobject.OrderId;
 import org.example.valueobject.OrderStatus;
 import org.example.valueobject.ProductId;
 import org.example.valueobject.RestaurantId;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
-import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -169,7 +167,7 @@ class OrderApplicationServiceTest {
         assertThat(createOrderResponse).isNotNull();
         assertThat(createOrderResponse.getOrderStatus()).isEqualTo(OrderStatus.PENDING);
         assertThat(createOrderResponse.getMessage()).isEqualTo("Order created successfully");
-        assertThat(createOrderResponse.getOrderTackingId()).isNotNull();
+        assertThat(createOrderResponse.getOrderTrackingId()).isNotNull();
     }
 
     @Test
@@ -181,7 +179,7 @@ class OrderApplicationServiceTest {
                 .satisfies(response -> {
                     assertThat(response.getOrderStatus()).isEqualTo(OrderStatus.PENDING);
                     assertThat(response.getMessage()).isEqualTo("Order created successfully");
-                    assertThat(response.getOrderTackingId()).isNotNull();
+                    assertThat(response.getOrderTrackingId()).isNotNull();
                 });
     }
 
