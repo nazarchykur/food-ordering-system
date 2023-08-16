@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc44b65b-9c80-48f0-bee3-dea8741db675" name="Changes" comment="Implemented Kafka producer generic module">
-      <change beforePath="$PROJECT_DIR$/infrastructure/kafka/kafka-producer/src/main/java/org/example/kafka/producer/service/impl/KafkaProducerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-producer/src/main/java/org/example/kafka/producer/service/impl/KafkaProducerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-consumer/src/main/java/org/example/kafka/consumer/KafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-consumer/src/main/java/org/example/kafka/consumer/config/KafkaConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/kafka/kafka-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-consumer/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +192,7 @@
       <updated>1691997640968</updated>
       <workItem from="1691997641987" duration="543000" />
       <workItem from="1691998191137" duration="31633000" />
-      <workItem from="1692104993392" duration="23167000" />
+      <workItem from="1692104993392" duration="23527000" />
     </task>
     <task id="LOCAL-00001" summary="added screenshots about Clean Architecture">
       <option name="closed" value="true" />
@@ -264,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692181939624</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Implemented Kafka producer generic module">
+      <option name="closed" value="true" />
+      <created>1692182023708</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1692182023708</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
