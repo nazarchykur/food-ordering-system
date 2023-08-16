@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc44b65b-9c80-48f0-bee3-dea8741db675" name="Changes" comment="Implemented Order Track Command Handler">
-      <change afterPath="$PROJECT_DIR$/infrastructure/screenhots/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/screenhots/img_1.png" afterDir="false" />
+    <list default="true" id="fc44b65b-9c80-48f0-bee3-dea8741db675" name="Changes" comment="added example of Running Apache Kafka using Docker">
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-config-data/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-config-data/src/main/java/org/example/kafka/config/data/KafkaConfigData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-config-data/src/main/java/org/example/kafka/config/data/KafkaConsumerConfigData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-config-data/src/main/java/org/example/kafka/config/data/KafkaProducerConfigData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-producer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/docker-compose/kafka_cluster.yml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/docker-compose/kafka_cluster.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +28,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,7 +60,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "zulu-17",
-    "last_opened_file_path": "/home/nazar/IdeaProjects/study/food-ordering-system/infrastructure/docker-compose",
+    "last_opened_file_path": "/home/nazar/IdeaProjects/study/food-ordering-system/infrastructure/kafka/kafka-config-data/src/main/java/org/example/kafka/config/data",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,6 +85,7 @@
       <recent name="org.example.order.service.domain.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/infrastructure/kafka/kafka-config-data/src/main/java/org/example/kafka/config/data" />
       <recent name="$PROJECT_DIR$/infrastructure/docker-compose" />
       <recent name="$PROJECT_DIR$/screenshots" />
     </key>
@@ -190,7 +199,7 @@
       <updated>1691997640968</updated>
       <workItem from="1691997641987" duration="543000" />
       <workItem from="1691998191137" duration="31633000" />
-      <workItem from="1692104993392" duration="17408000" />
+      <workItem from="1692104993392" duration="20084000" />
     </task>
     <task id="LOCAL-00001" summary="added screenshots about Clean Architecture">
       <option name="closed" value="true" />
@@ -232,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692096075482</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added example of Running Apache Kafka using Docker">
+      <option name="closed" value="true" />
+      <created>1692175613045</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692175613045</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +283,8 @@
     <MESSAGE value="added screenshots about Clean Architecture" />
     <MESSAGE value="Implemented message publisher in Order Application Service to fire the events" />
     <MESSAGE value="Implemented Order Track Command Handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Order Track Command Handler" />
+    <MESSAGE value="added example of Running Apache Kafka using Docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="added example of Running Apache Kafka using Docker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
