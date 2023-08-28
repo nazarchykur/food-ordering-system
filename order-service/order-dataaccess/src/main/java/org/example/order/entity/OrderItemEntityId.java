@@ -14,15 +14,15 @@ import java.util.Objects;
 @AllArgsConstructor
 @Getter
 @Setter
-public class OrderItemId implements Serializable {
+public class OrderItemEntityId implements Serializable {
     private Long id;
-    private Order order;
+    private OrderEntity order;
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        OrderItemId that = (OrderItemId) o;
+        OrderItemEntityId that = (OrderItemEntityId) o;
         return Objects.equals(id, that.id) && Objects.equals(order, that.order);
     }
 

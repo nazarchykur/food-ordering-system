@@ -28,7 +28,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Order {
+public class OrderEntity {
     @Id
     @Column(name = "id", nullable = false)
     private UUID id;
@@ -42,16 +42,16 @@ public class Order {
     private String failureMessages;
 
     @OneToOne(mappedBy = "order", cascade = CascadeType.ALL)
-    private OrderAddress orderAddress;
+    private OrderAddressEntity address;
 
     @OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
-    private List<OrderItem> items;
+    private List<OrderItemEntity> items;
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Order order = (Order) o;
+        OrderEntity order = (OrderEntity) o;
         return Objects.equals(id, order.id);
     }
 

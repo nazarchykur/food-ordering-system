@@ -1,11 +1,11 @@
 package org.example.order.entity;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import jakarta.persistence.IdClass;
 import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,43 +13,38 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.math.BigDecimal;
 import java.util.Objects;
 import java.util.UUID;
 
 @Entity
-@Table(name = "order_items")
-@IdClass(OrderItemId.class)
+@Table(name = "order_address")
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
-public class OrderItem {
+public class OrderAddressEntity {
     @Id
     @Column(name = "id", nullable = false)
-    private Long id;
+    private UUID id;
+    private String street;
+    private String postalCode;
+    private String city;
 
-    @Id
-    @ManyToOne
+    @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "order_id")
-    private Order order;
-
-    private UUID productId;
-    private BigDecimal price;
-    private int quantity;
-    private BigDecimal subTotal;
+    private OrderEntity order;
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        OrderItem orderItem = (OrderItem) o;
-        return Objects.equals(id, orderItem.id) && Objects.equals(order, orderItem.order);
+        OrderAddressEntity that = (OrderAddressEntity) o;
+        return Objects.equals(id, that.id);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, order);
+        return Objects.hash(id);
     }
 }
